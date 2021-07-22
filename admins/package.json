@@ -1,0 +1,53 @@
+{
+    "name": "admins-ui",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack",
+        "cypress:open": "cypress open",
+        "start": "webpack-dev-server --open --config webpack.dev.config.js",
+        "start:live": "webpack-dev-server --open --liveReload --config webpack.dev.config.js"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Stanimir Stoychev",
+        "email": "xstukix@gmail.com"
+    },
+    "devDependencies": {
+        "@babel/core": "7.12.16",
+        "@babel/plugin-proposal-class-properties": "^7.12.13",
+        "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
+        "@babel/plugin-transform-runtime": "^7.12.15",
+        "@babel/preset-env": "^7.12.16",
+        "@babel/preset-react": "7.12.13",
+        "@babel/preset-typescript": "^7.12.16",
+        "@types/react": "^17.0.2",
+        "@types/react-dom": "^17.0.1",
+        "@types/react-router-dom": "^5.1.7",
+        "@typescript-eslint/eslint-plugin": "^4.15.1",
+        "@typescript-eslint/parser": "^4.15.1",
+        "babel-loader": "8.2.2",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^5.0.2",
+        "cypress": "^6.5.0",
+        "dotenv": "^8.2.0",
+        "eslint": "^7.20.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-import-resolver-webpack": "^0.13.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-webpack-plugin": "^2.5.1",
+        "html-webpack-plugin": "^5.1.0",
+        "prettier": "^2.2.1",
+        "style-loader": "2.0.0",
+        "typescript": "^4.1.5",
+        "webpack": "5.22.0",
+        "webpack-cli": "3.3.11",
+        "webpack-dev-server": "3.11.2"
+    },
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-query": "^3.9.8",
+        "react-router-dom": "^5.2.0"
+    }
+}
